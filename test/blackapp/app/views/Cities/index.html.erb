@@ -1,0 +1,9 @@
+<h1>Top 5 Cities</h1>
+
+<ol>
+	<% @today.each do |hi|%>
+	<li><%= hi.rank %><%= hi.population %></li>
+	<% end %>
+	
+</ol>
+
